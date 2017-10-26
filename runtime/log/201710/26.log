@@ -1,0 +1,2825 @@
+---------------------------------------------------------------
+[ 2017-10-26T08:59:52+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/user/add.html
+[ info ] geework.app/panel/user/add.html [运行时间：0.214633s][吞吐率：4.66req/s] [内存消耗：1,457.86kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'user',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T08:59:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ info ] geework.app/index/index [运行时间：0.063212s][吞吐率：15.82req/s] [内存消耗：1,498.16kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/user/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\geework\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T08:59:55+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] geework.app/captcha.html [运行时间：0.038760s][吞吐率：25.80req/s] [内存消耗：1,213.58kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://geework.app/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\geework\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:03+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.3738221684457361
+[ info ] geework.app/captcha.html?0.3738221684457361 [运行时间：0.048374s][吞吐率：20.67req/s] [内存消耗：1,213.81kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://geework.app/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  '0_3738221684457361' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\geework\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index
+[ info ] geework.app/index/index [运行时间：0.105979s][吞吐率：9.44req/s] [内存消耗：2,555.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '53',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'username' => '胡平',
+  'password' => '123456',
+  'code' => '3vya',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\geework\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010055s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.017705s ]
+[ sql ] [ SQL ] SELECT * FROM `gee_user` WHERE  `username` = '胡平' LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:00:19+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/index
+[ info ] geework.app/panel/index [运行时间：0.090129s][吞吐率：11.10req/s] [内存消耗：1,502.63kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Index->index[ D:\phpStudy\WWW\geework\application\panel\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:19+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.050274s][吞吐率：19.89req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/position/lst.html
+[ info ] geework.app/panel/position/lst.html [运行时间：0.297042s][吞吐率：3.37req/s] [内存消耗：2,671.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'position',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Position->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Position.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\position\list.html [ array (
+  0 => 'ptres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_position` [ RunTime:0.008411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gee_position` LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `gee_position` ORDER BY id asc LIMIT 0,5 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.019913s][吞吐率：50.22req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:31+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.029027s][吞吐率：34.45req/s] [内存消耗：1,505.02kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/position/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.019697s][吞吐率：50.77req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:00:42+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.094332s][吞吐率：10.60req/s] [内存消耗：2,241.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010265s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.007458s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:00:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.019735s][吞吐率：50.67req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:08:58+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.098319s][吞吐率：10.17req/s] [内存消耗：2,627.63kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11350',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaCBUGzeG0XaWmQeH',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'creadate' => '1508979642',
+  'content' => '<p>的士费热汤放入太容易<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009922s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.007359s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.019670s ]
+[ sql ] [ SQL ] INSERT INTO `gee_daily` (`author` , `creadate` , `content` , `attachment`) VALUES ('胡平' , 1508979642 , '<p>的士费热汤放入太容易<br/></p>' , '/uploads/20171026\\f6a62eb85901e01082c0e0ab4c003753.png') [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:09:01+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.051811s][吞吐率：19.30req/s] [内存消耗：1,504.98kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:09:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021736s][吞吐率：46.01req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:12:59+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.026035s][吞吐率：38.41req/s] [内存消耗：1,505.22kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:12:59+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020970s][吞吐率：47.69req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:23:05+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.046360s][吞吐率：21.57req/s] [内存消耗：2,241.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001877s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.007079s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:23:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.022605s][吞吐率：44.24req/s] [内存消耗：1,189.39kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:23:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] geework.app/index.php [运行时间：0.059228s][吞吐率：16.88req/s] [内存消耗：1,495.34kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\geework\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.108562s][吞吐率：9.21req/s] [内存消耗：2,402.78kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001149s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015530s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021114s][吞吐率：47.36req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.057084s][吞吐率：17.52req/s] [内存消耗：2,402.87kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010427s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.005715s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.028540s][吞吐率：35.04req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.066768s][吞吐率：14.98req/s] [内存消耗：2,402.88kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009648s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.014477s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020962s][吞吐率：47.71req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:39:00+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.055074s][吞吐率：18.16req/s] [内存消耗：2,402.86kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.017002s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:39:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020650s][吞吐率：48.43req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:39:29+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.051865s][吞吐率：19.28req/s] [内存消耗：2,402.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009795s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:39:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020472s][吞吐率：48.85req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:40:23+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.057054s][吞吐率：17.53req/s] [内存消耗：2,402.70kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010562s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.006223s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:40:23+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020485s][吞吐率：48.82req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.065864s][吞吐率：15.18req/s] [内存消耗：2,402.76kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010241s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.016588s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020836s][吞吐率：47.99req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:43:08+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.053311s][吞吐率：18.76req/s] [内存消耗：2,402.76kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.017681s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:43:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.022004s][吞吐率：45.45req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:50:05+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.046176s][吞吐率：21.66req/s] [内存消耗：2,402.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.005719s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:50:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021856s][吞吐率：45.75req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:50:11+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.079936s][吞吐率：12.51req/s] [内存消耗：2,626.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11238',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyHAtehPsLAS6j36Y',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>是F大商股份多少个热</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009921s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.016229s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.007229s ]
+[ sql ] [ SQL ] INSERT INTO `gee_daily` (`author` , `content` , `attachment`) VALUES ('胡平' , '<p>是F大商股份多少个热</p>' , '/uploads/20171026\\92383927f56bf70d69a10708c0203ab2.png') [ RunTime:0.000859s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:50:14+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.048241s][吞吐率：20.73req/s] [内存消耗：1,504.98kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:50:14+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021506s][吞吐率：46.50req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:51:25+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.022861s][吞吐率：43.74req/s] [内存消耗：1,505.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:51:26+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021665s][吞吐率：46.16req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:51:27+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.049365s][吞吐率：20.26req/s] [内存消耗：2,241.37kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015324s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:51:27+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021644s][吞吐率：46.20req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:51:34+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.079595s][吞吐率：12.56req/s] [内存消耗：2,598.80kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11224',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLR4M3bARRUZWFMzm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>AD围绕氛围</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011257s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.009587s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.008384s ]
+[ error ] [0]数据表字段不存在:[create_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T09:55:40+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.060529s][吞吐率：16.52req/s] [内存消耗：2,241.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009857s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.014736s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:55:43+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.076409s][吞吐率：13.09req/s] [内存消耗：2,626.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11224',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6ZrVnW5qPZy7LI1e',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>AD围绕氛围</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010309s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015138s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.007172s ]
+[ sql ] [ SQL ] INSERT INTO `gee_daily` (`author` , `content` , `attachment`) VALUES ('胡平' , '<p>AD围绕氛围</p>' , '/uploads/20171026\\781d174cc22881fb1ff372ec51020ea5.png') [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:55:46+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.031050s][吞吐率：32.21req/s] [内存消耗：1,505.04kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:55:46+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021312s][吞吐率：46.92req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:57:02+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.025465s][吞吐率：39.27req/s] [内存消耗：1,505.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:57:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021291s][吞吐率：46.97req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:57:03+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.060236s][吞吐率：16.60req/s] [内存消耗：2,241.37kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010251s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015873s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:57:03+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020675s][吞吐率：48.37req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:57:09+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.069405s][吞吐率：14.41req/s] [内存消耗：2,599.19kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11231',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGdZIJbEeH15dKjeA',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>按我发热污染费</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.016782s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.005679s ]
+[ error ] [0]数据表字段不存在:[update_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T09:57:31+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.063596s][吞吐率：15.72req/s] [内存消耗：2,599.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11231',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGdZIJbEeH15dKjeA',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>按我发热污染费</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000821s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.005305s ]
+[ error ] [0]数据表字段不存在:[update_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T09:57:35+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.098347s][吞吐率：10.17req/s] [内存消耗：2,599.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11231',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGdZIJbEeH15dKjeA',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>按我发热污染费</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010436s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015406s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.004968s ]
+[ error ] [0]数据表字段不存在:[update_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T09:57:36+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.058481s][吞吐率：17.10req/s] [内存消耗：2,241.36kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010219s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.015475s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:57:38+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.072331s][吞吐率：13.83req/s] [内存消耗：2,599.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11231',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywm3tGUVInNTX0cJB',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>按我发热污染费</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010786s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.007763s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.007408s ]
+[ error ] [0]数据表字段不存在:[update_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T09:58:55+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.068139s][吞吐率：14.68req/s] [内存消耗：2,627.80kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '11231',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywm3tGUVInNTX0cJB',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>按我发热污染费</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010063s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.014752s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.005669s ]
+[ sql ] [ SQL ] INSERT INTO `gee_daily` (`author` , `content` , `attachment` , `creadate`) VALUES ('胡平' , '<p>按我发热污染费</p>' , '/uploads/20171026\\87a4a4523c6253a6072e2ab9326900b1.png' , 1508983135) [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2017-10-26T09:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.046304s][吞吐率：21.60req/s] [内存消耗：1,504.98kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T09:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020004s][吞吐率：49.99req/s] [内存消耗：1,189.49kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:00:01+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.053436s][吞吐率：18.71req/s] [内存消耗：2,241.37kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010454s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.005659s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:00:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.022034s][吞吐率：45.38req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:00:04+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.066054s][吞吐率：15.14req/s] [内存消耗：2,561.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '397',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEbfUL1bRQvJ8sy3N',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>分</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010708s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.006970s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.009047s ]
+[ sql ] [ SQL ] INSERT INTO `gee_daily` (`author` , `content` , `creadate`) VALUES ('胡平' , '<p>分</p>' , 1508983204) [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:00:07+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/lst.html
+[ info ] geework.app/panel/daily/lst.html [运行时间：0.035391s][吞吐率：28.26req/s] [内存消耗：1,505.07kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->lst[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:00:07+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021315s][吞吐率：46.92req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.048926s][吞吐率：20.44req/s] [内存消耗：2,241.37kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000892s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.014888s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.021150s][吞吐率：47.28req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:00:49+08:00 ] 127.0.0.1 127.0.0.1 POST /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.065316s][吞吐率：15.31req/s] [内存消耗：2,532.93kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'content-length' => '403',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://geework.app',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypAFYI2UheV2OJpaO',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'author' => '胡平',
+  'content' => '<p>的说法</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010883s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.005761s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_daily` [ RunTime:0.007067s ]
+[ error ] [0]数据表字段不存在:[create_time][D:\phpStudy\WWW\geework\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-10-26T10:00:53+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.050130s][吞吐率：19.95req/s] [内存消耗：2,241.37kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010671s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.006391s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.063441s][吞吐率：15.76req/s] [内存消耗：2,402.53kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010036s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.014017s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.022679s][吞吐率：44.09req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-26T10:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /panel/daily/add.html
+[ info ] geework.app/panel/daily/add.html [运行时间：0.052143s][吞吐率：19.18req/s] [内存消耗：2,402.55kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'panel',
+    1 => 'daily',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://geework.app/panel/daily/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\panel\controller\Daily->add[ D:\phpStudy\WWW\geework\application\panel\controller\Daily.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\geework\public/../application/panel\view\daily\add.html [ array (
+  0 => 'userres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009787s ] mysql:host=127.0.0.1;dbname=geework;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gee_user` [ RunTime:0.006056s ]
+[ sql ] [ SQL ] SELECT `username` FROM `gee_user` [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2017-10-26T10:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] geework.app/static/panel/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.020978s][吞吐率：47.67req/s] [内存消耗：1,189.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\geework\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'panel',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'geework.app',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://geework.app',
+  'accept' => '*/*',
+  'referer' => 'http://geework.app/static/panel/css/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=pdf532d0a2ttj2ldsrtp62nk87',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
